@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" type="text/css" href="register.css">
+</head>
+<body>
+    <form>
+        firstName:<input type="text" placeholder="enter first name" name="firstName"><br>
+        lastName:<input type="text" placeholder="enter last name" name="lastName"><br>
+        Birthdate:<input type="date" placeholder="enter birth date" name="Birthdate"><br>
+        Email:<input type="email" placeholder="email address" required name="Email"><br>
+        Password:<input type="password" placeholder="current-password" required minlength="4" name="Password"><br>
+        Comfirm password:<input type="password" placeholder="confirm current-password" required minlength="4" name="password"><br>
+        Gender:<br>
+            <input type="radio" name="gender">Male<br>
+            <input type="radio" name="gender">Female<br>
+            <input type="radio" name="gender">Others<br>
+        Shoe's categories:<br>
+            <input type="checkbox" name="Corperate shoes">Corperate shoes<br>
+            <input type="checkbox" name="Slides">Slides<br>
+            <input type="checkbox" name="Sandals">Sandals<br>
+            <input type="checkbox" name="Sneakers">Sneakers<br>
+            <input type="checkbox" name="Boots">Boots<br>
+            <input type="checkbox" name="PartyShoes">Party shoes<br>
+        Shoes collections:<br>
+            <select name="Shoes collections">
+                <option>Men's shoes</option>
+                <option>Woman's shoes</option>
+            </select><br>
+            <input type="submit" value="Register">
+            <input type="reset">
+    </form>
+    <a href="myUsers.html">Already logged in myUsers</a>
+</body>
+    <script type="text/javascript" src="register.js"></script>
+</html>
+<!-- http://127.0.0.1:5500/myWeb/register.html?
+firstName=Prince&
+lastName=Omoegbeleghan&
+Birthdate=2022-08-09&
+Email=omoegbeleghanprince%40gmail.com&
+Password=omoo&password=omoo&
+gender=on&
+Corperate+shoes=on&
+Sneakers=on&PartyShoes=on&
+Shoes+collections=Men%27s+shoes -->

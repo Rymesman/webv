@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "live": "^0.1.25-beta.0",
+    "live-server": "^1.2.2",
+    "react": "^18.0.0",
+    "server": "^1.0.37"
+  },
+  "name": "myweb",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

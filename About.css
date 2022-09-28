@@ -1,0 +1,76 @@
+body {
+    margin: auto;
+}
+.zone {
+    /* padding: 30px 50px;
+    margin: 40px 60px;
+    display: inline-block; */
+    /* font-size: 1em; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    color: #fff;
+    border: 4px;
+    border-radius: 2px solid #00f4f4;
+    transition: all 2s linear;
+}
+.sticky {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.grid-wrapper {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+.box > img {
+    width: 100%;
+}
+.box {
+    padding: 130px;
+    margin: 30px;
+    background-color: gray;
+}
+.main-nav {
+    display: flex;
+    font-size: 0.9em;
+    margin: 0;
+}
+li {
+    list-style: none;
+    padding: 20px;
+}
+a {
+    text-decoration: none;
+}
+.push {
+    margin-left: auto;
+}
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 0.7em;
+        padding: 0;
+    }
+}
+.cover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    text-align: centerc;
+}
+.zone:hover {
+    box-shadow: rgba(0, 0, 0, 0.8) -5px 10px 15px, inset rgba(0, 0, 0, 0.8) -5px 10px 15px;
+}
+.green {
+    background-color: greenyellow;
+}
+.purple {
+    background-color: purple;
+}
+.pink {
+    background-color: palevioletred;
+}
+.orange {
+    background-color: gainsboro;
+}
